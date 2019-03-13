@@ -5,91 +5,152 @@ header {
   margin: 0;
 }
 
-.img-fluid {
+/*---------------------------------------Navigation Bar------*/
+
+.navbar-toggler {
+  padding: 5px;
+
+  background-color: #214f6a;
+  border: 2px solid;
+
+  border-radius: 5px;
+}
+
+.navbar-toggler:hover {
+  background-color: #d5d8ea;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+
+}
+
+.navbar-brand:hover {
+  background-color: #3d7291;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+.navbar-expand-lg {
+  background-color: #447fa2;
+}
+
+
+.nav-item {
+  font-family: 'Sigmar One', sans-serif;
+  color: #1f3c40;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.navbar-nav .nav-link.home {
+  color: #62305c;
+}
+
+.navbar-nav .nav-link.gallery {
+  color: #ea8046;
+}
+
+.navbar-nav .nav-link.music {
+  color: #2b3688;
+}
+
+.navbar-nav .nav-link.contact {
+  color: #77dd83;
+
+}
+
+.nav-link:hover {
+  color: #d5d8ea !important;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-link {
+  text-decoration: none;
+  font-family: 'Sigmar One', sans-serif;
+  color: #e1ae0f;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #d5d8ea;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*---------------------------------------Section--------*/
+
+.container-fluid.monkees-img {
+  background: url('/assets/images/collage01.jpg');
+  background-repeat: repeat-x;
   width: 100%;
-  max-height: 350px;
+  height: 350px;
+  padding:0;
+  
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+/*.img-fluid {
+  width: 100%;
+  max-height: 400px;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
+*/
 
-.main_img {
-  width: 100%;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(148, 0, 60);
+/*-------------------------------------------------Footer------*/
 
+.container-fluid.footer {
+  background-color: #307198;
 }
 
 
-
-/*
-.container-fluid {
-  border-color: #000000;
-  border:solid;
-  border-width: 2px;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
-
-.navbar-expand-lg {
-  background-color: #336699;
-
+.btn-link.footer {
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: auto;
+  border-top: 0;
+  text-align: left;
 }
 
-
-
-
-
-
-
-
-
-/*------------------Buttons---*/
-
-
-
-/*----------------Buttons----*/
-
-/*------Colors--*/
-
-.navbar {
+.text-uppercase.footer {
   font-family: 'Sigmar One', sans-serif;
-  font-size: 26px;
-  font-weight: 500;
-  color: #000000;
+  color: #1c245b;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 17px;
+  margin-bottom: auto;
 }
 
-.navbar-brand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
+.fab {
+  color: #1c245b;
+  font-size: 35px;
+  text-align: left;
+  margin-top: 17px;
+  margin-bottom: auto;
+  margin-left: 10px;
 }
 
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: #000000;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
+.fab:hover {
+  color: #d5d8ea;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
