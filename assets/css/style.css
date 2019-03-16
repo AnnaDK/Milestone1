@@ -6,6 +6,7 @@ header {
 }
 
 /*---------------------------------------Header--------------*/
+
 /*---------------------------------------Navigation Bar------*/
 
 .navbar-toggler {
@@ -36,7 +37,7 @@ header {
 
 .navbar-expand-lg {
   background-color: #4d8384;
-  
+
 }
 
 
@@ -45,16 +46,16 @@ header {
   color: #1f3c40;
   font-size: 30px;
   font-weight: 200;
-  
+
 }
 
 .navbar-nav .nav-link.home {
   color: #830118;
-  
+
 }
 
 .navbar-nav .nav-link.gallery {
-  color:#ff841f;
+  color: #ff841f;
 }
 
 .navbar-nav .nav-link.music {
@@ -89,10 +90,11 @@ header {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
+
 .header-image-contain {
-  
+
   background: url('/assets/images/collage01.jpg');
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
   width: 100%;
   height: 370px;
   padding: 0;
@@ -103,139 +105,206 @@ header {
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
-  
+
 }
 
 /*---------------------------------------Section Home--------*/
-.side-content{
- border: 3px solid #a6c1c1;
-  border-radius:3px;
+
+.side-content {
+  border: 3px solid #a6c1c1;
+  border-radius: 3px;
   text-align: center;
   padding-top: 20px;
-  background-color:#f4f4f4;
-  margin-top: 5px; 
-  margin-bottom:5px;
+  background-color: #f4f4f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 .about-content {
   border: 3px solid #a6c1c1;
-  border-radius:3px;
+  border-radius: 3px;
   padding: 20px;
-  margin-top: 5px; 
-  margin-bottom:5px;
-  background-color:#f4f4f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #f4f4f4;
 }
+
 .side-content p {
-   font-family: 'Lato', sans-serif;
-   font-weight: 600;
-   font-size: 20px;
-   color: #000000;
-   padding-top: 4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  padding-top: 4px;
 }
+
 .about-content p {
   font-family: 'Lato', sans-serif;
-   font-weight: 400;
-   font-size:15px;
-   color: #000000;
-   padding: 4px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  padding: 4px;
 }
+
 .side-content a {
   text-decoration: none!important;
   color: #ff841f;
   font-size: 25;
   font-weight: 700;
 }
+
 .side-content a:hover {
-  color:#d5d8ea; 
+  color: #d5d8ea;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
-.about-content a{
- text-decoration: none!important;
-   
+
+.about-content a {
+  text-decoration: none!important;
+
 }
 
-h1, h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Sigmar One', sans-serif;
-  color:#133c3d;
+  color: #133c3d;
 }
+
 /*---------------------------------------Section Gallery--------*/
 
 .container-fluid.gallery {
-  background-color:#f4f4f4;
+  background-color: #f4f4f4;
   border: 3px solid #a6c1c1;
-  border-radius:3px;
+  border-radius: 3px;
   padding: 15px;
   padding-top: 20px;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  }
-  
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
-  
-}
-  
 
-  .download-img {
-   color: #830118;
-  
-   
+}
+
+
+.download-img {
+  color: #830118;
+
+
 }
 
 .gallery-content {
   text-align: center;
   font-family: 'Lato', sans-serif;
-   font-weight: 600;
-   font-size: 30px;
-   color: #000000;
-   padding-top: 4px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+  padding-top: 4px;
 }
-.gallery {
-  vertical-align: bottom;
-}
+
 .fas {
-  color:#133c3d;
+  color: #133c3d;
   font-size: 20px;
 }
+
 .fas:hover {
   color: #4d8384;
 }
+
 /*-----------------------------------------------Section Music---*/
 
-.side-content-music{
+.container-fluid.music {
+  margin: auto;
+  padding: 15px;
+
+}
+
+.side-content-music {
   border: 3px solid #a6c1c1;
-  border-radius:3px;
+  border-radius: 3px;
   text-align: center;
   padding-top: 20px;
   padding: 15px;
-  background-color:#f4f4f4;
-  margin-top: 5px; 
-  margin-bottom:5px;
+  background-color: #f4f4f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .music-content {
+
   border: 3px solid #a6c1c1;
-  border-radius:3px;
+  border-radius: 3px;
   text-align: center;
   padding-top: 20px;
   padding: 15px;
-  background-color:#f4f4f4;
-  margin-top: 5px; 
-  margin-bottom:5px;
+  background-color: #f4f4f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
+.rounded-circle {
+  animation-play-state: paused;
+
+}
+
+.rounded-circle:hover {
+  animation-play-state: running;
+  animation: spin 7s infinite linear;
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -o-animation-play-state: running;
+  -webkit-animation: spin 7s infinite linear;
+  -moz-animation: spin 7s infinite linear;
+  -o-animation: spin 7s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*---.embed-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}---*/
+
+
+/*---.audio-controls{
+  width: 75%;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px #777777;
+    background-color: #4d8384;
+}
+.audio-controls {
+      display: inline-block;
+    vertical-align: baseline;
+    position: inherit;
+}----*/
+
 /*-------------------------------------------------Footer------*/
 
 .container-fluid.footer {
   background-color: #4d8384;
-  
+
 }
 
 
@@ -254,16 +323,16 @@ h1, h2,h3,h4,h5,h6 {
   font-size: 20px;
   font-weight: 100;
   text-align: left;
-  
+
   margin-top: 17px;
   margin-bottom: auto;
 }
 
 .fab {
-  color:  #133c3d;
+  color: #133c3d;
   font-size: 40px;
   text-align: left;
-  
+
   margin-top: 17px;
   margin-bottom: auto;
   margin-left: 10px;
@@ -285,17 +354,16 @@ h1, h2,h3,h4,h5,h6 {
 
 .modal-dialog {
   border: 3px solid #2b3688;
-  border-radius:5px;
-  
-  padding: 5px;
-  background-color:#ebf3f8;
-}
-.modal-content{
-   background-color:#ebf3f8;
- font-family: 'Lato', sans-serif;
-   font-weight: 400;
-   font-size:25px;
-   color: #000000;
-}
- 
+  border-radius: 5px;
 
+  padding: 5px;
+  background-color: #ebf3f8;
+}
+
+.modal-content {
+  background-color: #ebf3f8;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
