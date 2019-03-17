@@ -31,19 +31,19 @@ header {
   color: #e1ae0f;
 }
 h4.contact {
-  color: #5b2b84;
+  color:#24769e;
 }
 h5.contact {
   color:#ff841f; 
 }
 .fa-calendar-check,.fa-globe-americas,.fa-music {
-  color:  #5b2b84;
+  color: #24769e;
   }
-p.gallery-content{
-  color:#5b2b84; 
+.gallery-content-p{
+  color:#24769e; 
 }
 .download-img {
-  color: #5b2b84;
+  color: #24769e;
 }
 .fa-arrow-circle-down {
   color: #133c3d;
@@ -175,13 +175,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .side-content a {
   text-decoration: none!important;
-  color: #ff841f;
+  color: #24769e;
   font-size: 25px;
   font-weight: 700;
 }
 
 .side-content a:hover {
-  color: #d5d8ea;
+  color: #7bacc4;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -278,27 +278,30 @@ h1,h2,h3,h4,h5,h6 {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #133c3d;
   border-radius: 0.25rem;
   height: 270px;
-
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  }
+.img-thumbnail.top-row {
+  height: 220px;
 }
-
-
-
-
-.gallery-content {
+.gallery-content-p {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: #000000;
+  
   padding-top: 4px;
 }
-
+.gallery-content{
+  margin-bottom: 20px;
+}
 .fa-arrow-circle-down {
   color: #133c3d;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .fas:hover {
@@ -356,6 +359,11 @@ border: 3px solid #a6c1c1;
   }
 }
 
+.timeline-content p{
+  
+}
+
+
 
 
 /*-------------------------------------------------Section Contact----*/
@@ -392,7 +400,3 @@ border: 3px solid #a6c1c1;
   padding-top: 4px;
 }
 
-.table-responsive-sm {
-  max-width: 400px;
-  max-height: 400px;
-}
