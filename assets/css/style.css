@@ -8,9 +8,11 @@ header {
 
 
 /*---------------------------------------Colors--------------*/
+
 .navbar-expand-lg {
   background-color: #4d8384;
 }
+
 .navbar-nav .nav-link.home {
   color: #830118;
 
@@ -27,44 +29,63 @@ header {
 .navbar-nav .nav-link.contact {
   color: #c7cc28;
 }
+
 .btn-link {
   color: #e1ae0f;
 }
+
 h4.contact {
-  color:#24769e;
-}
-h5.contact {
-  color:#ff841f; 
-}
-.fa-calendar-check,.fa-globe-americas,.fa-music {
   color: #24769e;
-  }
-.gallery-content-p{
-  color:#24769e; 
 }
+
+h5.contact {
+  color: #ff841f;
+}
+
+.fa-calendar-check,
+.fa-globe-americas,
+.fa-music {
+  color: #24769e;
+}
+
+.gallery-content-p {
+  color: #24769e;
+}
+
 .download-img {
   color: #24769e;
 }
+
 .fa-arrow-circle-down {
   color: #133c3d;
-  
+
 }
 
 /*---------------------------------------Special Paddings/Margins/Text-------------*/
-.container-fluid.home.gallery.music.contact{
-}
 
-.fa-calendar-check,.fa-globe-americas,.fa-music{
+
+
+.fa-calendar-check,
+.fa-globe-americas,
+.fa-music {
   font-size: 30px;
 }
+
 .fa-arrow-circle-down {
   font-size: 20px;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-family: 'Sigmar One', sans-serif;
   color: #133c3d;
 }
+
 /*-------Header--------------------------------Navigation Bar------*/
 
 .navbar-toggler {
@@ -84,21 +105,25 @@ h1,h2,h3,h4,h5,h6 {
   -o-transition: all 0.35s ease-in-out;
 
 }
+
 .d-inline-block-logo {
-  transition: width 1s, height 1s; 
+  transition: width 1s, height 1s;
   -webkit-transition: width 1s, height 1s;
 }
+
 .d-inline-block-logo:hover {
   width: 260px;
   height: 110px;
-  
+
 }
+
 .nav-link {
   font-family: 'Sigmar One', sans-serif;
   font-size: 30px;
   font-weight: 200;
 
 }
+
 .nav-link:hover {
   color: #d5d8ea !important;
   -moz-transition: all 0.35s ease-in-out;
@@ -130,14 +155,15 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
   height: 370px;
   padding: 0;
-  margin:0;
-  }
+  margin: 0;
+}
 
 /*---------------------------------------Section Home--------*/
 
-.container-fluid.home{
+.container-fluid.home {
   margin: auto;
 }
+
 .side-content {
   border: 3px solid #a6c1c1;
   border-radius: 3px;
@@ -159,13 +185,24 @@ h1,h2,h3,h4,h5,h6 {
 
 .side-content p {
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 22px;
   color: #000000;
-  padding-top: 4px;
+  padding-top: 20px;
+}
+hr { 
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: #a6c1c1;
+  width: 150px
 }
 
-.about-content p {
+.text-justify {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -209,8 +246,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 200;
   margin-top: 0;
   margin-bottom: auto;
-  border-top: 0;
-  text-align: center;
+text-align: center;
 }
 
 .text-uppercase.footer {
@@ -225,7 +261,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fab {
-  color:  #e1ae0f;
+  color: #e1ae0f;
   font-size: 40px;
   text-align: left;
 
@@ -263,6 +299,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 25px;
   color: #000000;
 }
+
 /*---------------------------------------Section Gallery--------*/
 
 .container-fluid.gallery {
@@ -284,21 +321,25 @@ h1,h2,h3,h4,h5,h6 {
   margin-left: 10px;
   margin-right: 15px;
   margin-bottom: 5px;
-  }
+}
+
 .img-thumbnail.top-row {
   height: 220px;
 }
+
 .gallery-content-p {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  
   padding-top: 4px;
 }
-.gallery-content{
-  margin-bottom: 20px;
+
+.gallery-content {
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
+
 .fa-arrow-circle-down {
   color: #133c3d;
   font-size: 25px;
@@ -311,21 +352,23 @@ h1,h2,h3,h4,h5,h6 {
 /*-----------------------------------------------Section Music---*/
 
 .container-fluid.music {
- margin: 0;
+  margin: 0;
 }
 
 .side-content-music {
- border: 3px solid #a6c1c1;
+  border: 3px solid #a6c1c1;
   border-radius: 3px;
-  text-align: center;
+  
   padding-top: 20px;
-  background-color: #f4f4f4;
+  background-color: #82a8a8;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+.side-content-music h1 {
+  text-align: center;
+}
 .music-content {
-border: 3px solid #a6c1c1;
+  border: 3px solid #a6c1c1;
   border-radius: 3px;
   text-align: center;
   padding-top: 20px;
@@ -333,9 +376,12 @@ border: 3px solid #a6c1c1;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+.audio-content{
+  padding-top: 60px;
+}
 .rounded-circle {
   animation-play-state: paused;
+  padding-bottom: 5px;
 
 }
 
@@ -359,20 +405,119 @@ border: 3px solid #a6c1c1;
   }
 }
 
-.timeline-content p{
+.video-content {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+/*-------------------------------------Timeline-----------*/
+
+.timeline {
+  position: relative;
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 50px;
+
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color:white;
+  bottom: 80px;
+  top: 65px;
+  display: block;
+  margin-left: 0;
+  margin-right: 2px;
+  left: 50%;
+  padding-top: 0;
+
+}
+
+.container {
+  
+  padding: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+  color: inherit;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  border-radius: 4px;
+  background-color:white;
+  border: 2px solid white;
+  left: -2px;
+  
+  top: -3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-left: -5px;
+  z-index: 1;
+}
+
+.left {
+  left: -24%;
+}
+
+.right {
+  left: 25%;
+}
+
+
+.content {
+  padding-left: 10px;
+  background-color: transparent;
+  position: relative;
+  border-radius: 2px;
+  
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 18px;
+  
   
 }
 
+.timeline-content {
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.left::after {
+  left: 97%;
+}
+.left .content {
+
+  padding-right: 5px;
+}
+.right .content {
+    text-align: right;
+    padding-right: 20px;
+}
 
 
 
 /*-------------------------------------------------Section Contact----*/
+
 .container-fluid.contact {
   margin: 0
 }
 
-.side-content-contact{
-border: 3px solid #a6c1c1;
+.side-content-contact {
+  border: 3px solid #a6c1c1;
   border-radius: 3px;
   text-align: center;
   padding-top: 20px;
@@ -399,4 +544,3 @@ border: 3px solid #a6c1c1;
   color: #000000;
   padding-top: 4px;
 }
-
