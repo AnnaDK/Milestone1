@@ -60,6 +60,9 @@ h5.contact {
   color: #133c3d;
 
 }
+.a {
+  text-decoration: none!important;
+  color: #24769e}
 
 /*---------------------------------------Special Paddings/Margins/Text-------------*/
 
@@ -109,11 +112,14 @@ h6 {
 .d-inline-block-logo {
   transition: width 1s, height 1s;
   -webkit-transition: width 1s, height 1s;
+  -moz-transition: width 1s, height 1s;
+  -o-transition: width 1s, height 1s;
+  
 }
 
 .d-inline-block-logo:hover {
   width: 260px;
-  height: 110px;
+  height: 105px;
 
 }
 
@@ -169,7 +175,7 @@ h6 {
   border-radius: 3px;
   text-align: center;
   padding-top: 20px;
-  background-color: #f4f4f4;
+  background-color: #e1eaea;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -190,17 +196,7 @@ h6 {
   color: #000000;
   padding-top: 20px;
 }
-hr { 
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  background-color: #a6c1c1;
-  width: 150px
-}
+
 
 .text-justify {
   font-family: 'Lato', sans-serif;
@@ -364,7 +360,7 @@ text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.side-content-music h1 {
+.side-content-music {
   text-align: center;
 }
 .music-content {
@@ -408,7 +404,10 @@ text-align: center;
 .video-content {
   padding-top: 70px;
   padding-bottom: 50px;
-  text-align: left;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 /*-------------------------------------Timeline-----------*/
 
@@ -441,7 +440,7 @@ text-align: center;
   padding-top: 8px;
   padding-bottom: 8px;
   position: relative;
-  color: inherit;
+  background-color:#b4caca; 
   border: 3px solid white;
   border-radius: 20px;
   width: 50%;
@@ -521,7 +520,7 @@ text-align: center;
   border-radius: 3px;
   text-align: center;
   padding-top: 20px;
-  background-color: #f4f4f4;
+  background-color: #e1eaea;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -543,4 +542,58 @@ text-align: center;
   font-size: 15px;
   color: #000000;
   padding-top: 4px;
+}
+.table-color-dark {
+  background-color: #b9cece;
+}
+.booking-form{
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  padding-top: 4px;
+}
+.form-group {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+   
+}
+.btn-primary {
+  color: #fff;
+  background-color: #378a68;
+  border-color: #95dcbf;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #83d7b4;
+  border-color: #2f7659;
+}
+.btn-secondary {
+  
+  background-color: #686d5c;
+  border-color: #ced3c2;
+  margin:  10px;
+}
+
+.btn-secondary:hover {
+  
+  background-color: #bec4ae;
+  border-color: #686d5c;
+}
+
+
+/*----------------------Thank_you_Card------*/
+
+.card-header,.card-footer{
+  background-color:  #82a8a8;
+}
+.card-body,.card-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
 }

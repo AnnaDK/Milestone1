@@ -54,9 +54,9 @@
                 <h4 class="contact"> Legendary songs from the 1970's!</h4>
 
                 <h5 class="contact">Greatest hits!</h5>
-                <table class="table table-hover">
+                <table class="table">
                     <thead>
-                        <tr>
+                        <tr class="table-color-dark">
                             <th scope="col"><i class="far fa-calendar-check"></i></th>
                             <th scope="col"><i class="fas fa-globe-americas"></i></th>
                             <th scope="col"><i class="fas fa-music"></i></th>
@@ -69,7 +69,7 @@
                             <td>Christchurch, New Zealand</td>
                             <td>Isaac Theatre</td>
                         </tr>
-                        <tr>
+                        <tr class="table-color-dark">
                             <th scope="row">6/9/19</th>
                             <td>Auckland, New Zealand</td>
                             <td>Great Hall</td>
@@ -80,7 +80,7 @@
                             <td>Wellington, New Zealand</td>
                             <td>Michael Fowler Centre</td>
                         </tr>
-                        <tr>
+                        <tr class="table-color-dark">
                             <th scope="row">6/15/19</th>
                             <td>Brisbane, Australia</td>
                             <td>QPAC</td>
@@ -92,7 +92,7 @@
                             <td>Palais Theatre</td>
 
                         </tr>
-                        <tr>
+                        <tr class="table-color-dark">
                             <th scope="row">6/18/19</th>
                             <td>Sydney, Australia</td>
                             <td>Sydney Opera House</td>
@@ -108,30 +108,33 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="section-heading uppercase">Booking form</h1><br>
-                        <p class="text-justify"> We are available to perform at events such as weddings and Christmas parties.</p>
-                        <p class="text-justify">You can send us your request by filling out the form below.</p>
+                        <p class="text-justify booking-form"> We are available to perform at events such as <span style="color: #24769e;">weddings and Christmas parties.</span><br>
+                        You can send us your request by filling out the form below.</p>
                         
    <!------------------------------------------------------------Form---------------------------->                     
                         
-                        <form>
+                        
+                            <form action="booking_form.html" target="_blank">
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="FormControlInput1" placeholder="your@email.com">
+                                <label for="FormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="FormControlInput1" placeholder="your@email.com" required>
                             </div>
                             <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" required>
                                 <label class="custom-control-label" for="customRadio1">Wedding</label>
                             </div>
                             <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" required>
                                 <label class="custom-control-label" for="customRadio2">Christmas party</label>
                             </div><br>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Details of the event</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="FormControlTextarea1">Details of the event</label>
+                                <textarea class="form-control" id="FormControlTextarea1" rows="3" required></textarea>
                             </div>
                             <div class="col-auto my-1">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                 <input class="btn btn-secondary" type="reset" value="Reset">
+                                <button type="submit" class="btn btn-primary" value="send it">Submit</button>
+                                
                             </div>
                     </form>
                 </div>
