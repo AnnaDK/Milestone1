@@ -75,9 +75,12 @@ h5.contact {
   background-color: #b9cece;
 }
 
+.card-header,
+.card-footer {
+  background-color: #82a8a8;
+}
 
-
-/*---------------------------------------Paddings/Margins/Borders-------------*/
+/*--------------------------------------- Special Paddings/Margins/Borders-------------*/
 header {
   margin: 0;
 }
@@ -150,7 +153,7 @@ padding-top: 20px;}
 
 .nav-link {
   font-family: 'Sigmar One', sans-serif;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 200;
 
 }
@@ -179,16 +182,20 @@ padding-top: 20px;}
   -o-transition: all 0.35s ease-in-out;
 }
 
+.active {
+  font-size: 30px;
+  color: #ffffff !important;
+}
+
 .image-content {
 
-  background: url('../images/collage01.jpg');
+  background: url('../images/collage_The_Monkees.jpg');
   background-repeat: repeat-x;
   width: 100%;
-  height: 370px;
+  height: 300px;
   padding: 0;
   margin: 0;
 }
-
 /*---------------------------------------Section Home--------*/
 
 .side-content-home {
@@ -337,8 +344,10 @@ padding-top: 20px;}
 
 
 
-.side-content-music h1 {
+.side-content-music .heading {
   text-align: center;
+  margin:auto;
+  
 }
 
 .music-content {
@@ -384,7 +393,7 @@ padding-top: 20px;}
   font-weight: 500;
 }
 
-/*-------------------------------------Timeline-----------*/
+/*------------------------------------Section Music-Timeline-----------*/
 
 .timeline {
   position: relative;
@@ -435,9 +444,6 @@ padding-top: 20px;}
 
   top: -3px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-
   margin-left: -5px;
   z-index: 1;
 }
@@ -550,10 +556,6 @@ padding-right: 5px;
 
 /*----------------------Thank_you_Card------*/
 
-.card-header,
-.card-footer {
-  background-color: #82a8a8;
-}
 
 .card-body,
 .card-text {
@@ -562,3 +564,54 @@ padding-right: 5px;
   font-size: 20px;
   color: #000000;
 }
+
+
+/*---------------------------@media-----------*/
+
+ @media (max-width:992px)  
+   {.d-inline-block-logo {max-width:200px ;} 
+   }
+
+@media ( max-width:992px )  
+   {.d-inline-block-logo { max-height:75px;}
+   }
+   
+ @media (max-width:992px){
+   .image-content {
+     height: 200px;}
+   
+ }
+  @media (max-width:992px) {
+    .nav-link {font-size: 20px;}
+  } 
+  
+  @media (max-width:992px){
+    .d-inline-block-logo:hover {
+  max-width: 205px;
+  max-height: 80px;
+  transition: max-width 1s, max-height 1s;
+  -webkit-transition: max-width 1s, max-height 1s;
+  -moz-transition: width 1s, height 1s;
+  -o-transition: width 1s, height 1s;
+}
+  }
+ @media (max-width:992px){ 
+  .btn-link.footer {
+  font-size: 20px;}}
+  
+  @media (max-width:992px) {.fab {
+  font-size: 30px;}}
+  
+   @media (max-width:992px){.fab {margin-top: 10px;}}
+   
+   
+  @media (max-width:992px){
+  .text-uppercase.footer {
+    margin-top:10px;}
+  }
+ @media (max-width:992px){
+  .text-uppercase.footer {font-size:15px;}}
+  
+  @media (max-width:992px){.side-content-home p {
+    font-size: 20px; font-weight:400;}
+  } 
