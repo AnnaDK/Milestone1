@@ -26,14 +26,15 @@
   color: #c7cc28;
 }
 
-.btn-link, .fab {
+.btn-link,
+.fab {
   color: #e1ae0f;
 }
 
 .side-content-home,
 .side-content-contact,
 
-.modal-content{
+.modal-content {
   background-color: #e1eaea;
 }
 
@@ -41,7 +42,7 @@
 .music-content,
 .contact-content,
 .modal-dialog,
-.container-fluid.gallery{
+.container-fluid.gallery {
   background-color: #f4f4f4;
 }
 
@@ -57,8 +58,7 @@ h5.contact {
 .fa-globe-americas,
 .fa-music,
 .gallery-content-p,
-.download-img
- a {
+.download-img a {
   color: #24769e;
 }
 
@@ -81,9 +81,11 @@ h5.contact {
 }
 
 /*--------------------------------------- Special Paddings/Margins/Borders-------------*/
+
 header {
   margin: 0;
 }
+
 .container-fluid.home.gallery.music.contac {
   margin: auto;
 }
@@ -117,9 +119,10 @@ h6 {
 .container-fluid.gallery,
 .side-content-music,
 .music-content,
-.side-content-contact
-{
-padding-top: 20px;}
+.side-content-contact {
+  padding-top: 20px;
+}
+
 /*-------Header--------------------------------Navigation Bar------*/
 
 .navbar-toggler {
@@ -140,29 +143,33 @@ padding-top: 20px;}
 
 }
 
-
+.d-inline-block-logo {
+  width: 200px;
+  height: 75px;
+}
 
 .d-inline-block-logo:hover {
-  width: 260px;
-  height: 105px;
-  transition: width 1s, height 1s;
-  -webkit-transition: width 1s, height 1s;
-  -moz-transition: width 1s, height 1s;
-  -o-transition: width 1s, height 1s;
+  width: 205px;
+  height: 80px;
+  transition: all 0.50s ease-in-out;
+ -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
 }
 
 .nav-link {
   font-family: 'Sigmar One', sans-serif;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 200;
 
 }
 
 .nav-link:hover {
   color: #d5d8ea !important;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  
+  -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
 }
 
 
@@ -183,7 +190,7 @@ padding-top: 20px;}
 }
 
 .active {
-  font-size: 30px;
+  font-size: 22px;
   color: #ffffff !important;
 }
 
@@ -192,10 +199,11 @@ padding-top: 20px;}
   background: url('../images/collage_The_Monkees.jpg');
   background-repeat: repeat-x;
   width: 100%;
-  height: 300px;
+  height: 200px;
   padding: 0;
   margin: 0;
 }
+
 /*---------------------------------------Section Home--------*/
 
 .side-content-home {
@@ -204,11 +212,12 @@ padding-top: 20px;}
 
 .side-content-home p {
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 20px;
   color: #000000;
   padding-top: 20px;
-  }
+}
+
 
 
 .text-justify {
@@ -244,7 +253,7 @@ padding-top: 20px;}
 /*-------------------------------------------------Footer------*/
 
 .btn-link.footer {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   margin-top: 0;
   margin-bottom: auto;
@@ -254,17 +263,17 @@ padding-top: 20px;}
 .text-uppercase.footer {
   font-family: 'Sigmar One', sans-serif;
   color: #133c3d;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
   text-align: left;
-  margin-top: 17px;
+  margin-top: 10px;
   margin-bottom: auto;
 }
 
 .fab {
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
-  margin-top: 17px;
+  margin-top: 10px;
   margin-bottom: auto;
   margin-left: 10px;
 }
@@ -287,7 +296,7 @@ padding-top: 20px;}
   border: 3px solid #2b3688;
   border-radius: 5px;
   padding: 5px;
-  }
+}
 
 .modal-content {
   font-family: 'Lato', sans-serif;
@@ -300,7 +309,7 @@ padding-top: 20px;}
 
 .container-fluid.gallery {
   text-align: center;
-  
+
 }
 
 .img-thumbnail {
@@ -342,16 +351,14 @@ padding-top: 20px;}
 
 /*-----------------------------------------------Section Music---*/
 
-
-
 .side-content-music .heading {
   text-align: center;
-  margin:auto;
-  
+  margin: auto;
+
 }
 
 .music-content {
- text-align: center;
+  text-align: center;
 }
 
 .audio-content {
@@ -481,7 +488,7 @@ padding-top: 20px;}
 }
 
 .left .content {
-padding-right: 5px;
+  padding-right: 5px;
 }
 
 .right .content {
@@ -495,7 +502,7 @@ padding-right: 5px;
 
 .side-content-contact {
   text-align: center;
-  }
+}
 
 .table {
   font-family: 'Lato', sans-serif;
@@ -504,6 +511,7 @@ padding-right: 5px;
   color: #000000;
   padding-top: 4px;
 }
+
 .fa-calendar-check,
 .fa-globe-americas,
 .fa-music {
@@ -555,7 +563,6 @@ padding-right: 5px;
 
 /*----------------------Thank_you_Card------*/
 
-
 .card-body,
 .card-text {
   font-family: 'Lato', sans-serif;
@@ -567,50 +574,53 @@ padding-right: 5px;
 
 /*---------------------------@media-----------*/
 
- @media (max-width:992px)  
-   {.d-inline-block-logo {max-width:200px ;} 
-   }
-
-@media ( max-width:992px )  
-   {.d-inline-block-logo { max-height:75px;}
-   }
-   
- @media (max-width:992px){
-   .image-content {
-     height: 200px;}
-   
- }
-  @media (max-width:992px) {
-    .nav-link {font-size: 20px;}
-  } 
-  
-  @media (max-width:992px){
-    .d-inline-block-logo:hover {
-  max-width: 205px;
-  max-height: 80px;
-  transition: max-width 1s, max-height 1s;
-  -webkit-transition: max-width 1s, max-height 1s;
-  -moz-transition: width 1s, height 1s;
-  -o-transition: width 1s, height 1s;
-}
+@media (min-width:992px) {
+  .d-inline-block-logo {
+    min-width: 250px;
   }
- @media (max-width:992px){ 
+  .d-inline-block-logo {
+    min-height: 100px;
+  }
+  .image-content {
+    height: 300px;
+  }
+  .nav-link {
+    font-size: 27px;
+  }
+  .nav-link:hover {
+  font-size: 30px;
+    -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+  }
+  .active {
+  font-size: 30px;}
+  
+  .d-inline-block-logo:hover {
+    min-width: 260px;
+    min-height: 105px;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+  }
   .btn-link.footer {
-  font-size: 20px;}}
-  
-  @media (max-width:992px) {.fab {
-  font-size: 30px;}}
-  
-   @media (max-width:992px){.fab {margin-top: 10px;}}
-   
-   
-  @media (max-width:992px){
-  .text-uppercase.footer {
-    margin-top:10px;}
+    font-size: 30px;
   }
- @media (max-width:992px){
-  .text-uppercase.footer {font-size:15px;}}
-  
-  @media (max-width:992px){.side-content-home p {
-    font-size: 20px; font-weight:400;}
-  } 
+  .fab {
+    font-size: 40px;
+  }
+  .fab {
+    margin-top: 17px;
+  }
+  .text-uppercase.footer {
+    margin-top: 17px;
+  }
+  .text-uppercase.footer {
+    font-size: 20px;
+  }
+  .side-content-home p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
