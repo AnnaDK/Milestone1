@@ -4,6 +4,8 @@ This project is a frontend-only website built by using the technologies that I'v
 The project is a static website for a 60's band "The Monkees". 
 The purpose of the project is to implement my knowledge by creating a 4-5 pages responsive website which represents guidelines given by Code Institute and requirements from interviews with the client’s representatives.
 
+You can see my project here ["The Monkees"](https://annadk.github.io/Milestone1/) 
+
 ## UX
 The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.    
 The main target auditory going to be old fans of the band.  Who is into the music and style of the '60s '70s. But the target is also to attract new fans by combining style and technology which fit for a wide range of auditory.
