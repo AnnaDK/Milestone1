@@ -10,9 +10,9 @@ You can see my project here ["The Monkees"](https://annadk.github.io/Milestone1/
 The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.    
 The main target auditory going to be old fans of the band.  Who is into the music and style of the '60s '70s. But the target is also to attract new fans by combining style and technology which fit for a wide range of auditory.
 Navigation supposed to be easily understandable and content could be followed in an intuitive way.
-In my research, I was monitoring social pages where you can find information about "The Monkees" , photos or their music and were reading comments from their fans. For me was an obvious high level of interest to any new information about the band. Also, people having the interest to see their new performances. 
+In my research, I was monitoring social pages where you can find information about "The Monkees" , photos or their music and were reading comments from their fans. For me was an obvious high level of interest to any new information about the band. Also, people having an interest to see their new performances. 
 This website gives an opportunity to contact the band in request of hiring them as well as following updates about concerts and receiving bands newsletters. 
-As well as the possibility to listen to music, watch videos and enter more opportunities to stay in touch with a band and their fans, around the world,  by following social links.
+As well as the possibility to listen to music, watch videos and enter more opportunities to stay in touch with the band and their fans, around the world,  by following social links.
 
 
 ### User Stories
