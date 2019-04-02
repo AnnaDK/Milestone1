@@ -172,7 +172,15 @@ Go to the "Home" page.
 
 ## Deployment
 
-The website was created using the Cloud9 IDE. Git was used for version control and pushed to a repository hosted on GitHub using Ubuntu / Bash script. The website is deployed using GitHub pages .....link
+The website was created using the Cloud9 IDE. Git was used for version control and pushed to a repository hosted on GitHub using Ubuntu / Bash script. 
+* I created a  GitHub repository https://github.com/AnnaDK/Milestone1
+* I initialised git from the Cloud9: *git init*
+* To add files was using: *git add .*
+* I used commit command: *git commit -m " *description of files or changes* "*
+* To push files I used command : *git push* 
+* In GitHub repository I opened a settings and selected **the master branch** my website is published at https://annadk.github.io/Milestone1/
+
+Repository : https://github.com/AnnaDK/Milestone1
 
 ## Credits
 
