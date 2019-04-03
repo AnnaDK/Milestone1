@@ -2,7 +2,7 @@
 
 
 
-/*---------------------------------------Colors--------------*/
+/*-------------------------Colors--------------*/
 
 .navbar-expand-lg,
 .container-fluid.footer {
@@ -80,7 +80,7 @@ h5.contact {
   background-color: #82a8a8;
 }
 
-/*--------------------------------------- Special Paddings/Margins/Borders-------------*/
+/*--------------- Special Paddings/Margins/Borders-------------*/
 
 header {
   margin: 0;
@@ -123,7 +123,7 @@ h6 {
   padding-top: 20px;
 }
 
-/*-------Header--------------------------------Navigation Bar------*/
+/*-------Header-------------------Navigation Bar------*/
 
 .navbar-toggler {
   padding: 4px 12px;
@@ -152,7 +152,7 @@ h6 {
   width: 205px;
   height: 80px;
   transition: all 0.50s ease-in-out;
- -moz-transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
   -webkit-transition: all 0.50s ease-in-out;
   -o-transition: all 0.50s ease-in-out;
 }
@@ -166,7 +166,7 @@ h6 {
 
 .nav-link:hover {
   color: #d5d8ea !important;
-  
+
   -moz-transition: all 0.50s ease-in-out;
   -webkit-transition: all 0.50s ease-in-out;
   -o-transition: all 0.50s ease-in-out;
@@ -204,7 +204,7 @@ h6 {
   margin: 0;
 }
 
-/*---------------------------------------Section Home--------*/
+/*------------------------Section Home--------*/
 
 .side-content-home {
   text-align: center;
@@ -250,7 +250,7 @@ h6 {
 
 
 
-/*-------------------------------------------------Footer------*/
+/*---------------------------------Footer------*/
 
 .btn-link.footer {
   font-size: 20px;
@@ -290,7 +290,7 @@ h6 {
 
 
 
-/*-------------------------------------------------------------Modal-------*/
+/*----------------------------------Modal-------*/
 
 .modal-dialog {
   border: 3px solid #2b3688;
@@ -305,7 +305,7 @@ h6 {
   color: #000000;
 }
 
-/*---------------------------------------Section Gallery--------*/
+/*--------------------------Section Gallery--------*/
 
 .container-fluid.gallery {
   text-align: center;
@@ -349,7 +349,7 @@ h6 {
   color: #4d8384;
 }
 
-/*-----------------------------------------------Section Music---*/
+/*------------------------------Section Music---*/
 
 .side-content-music .heading {
   text-align: center;
@@ -400,7 +400,7 @@ h6 {
   font-weight: 500;
 }
 
-/*------------------------------------Section Music-Timeline-----------*/
+/*-------------------Section Music-Timeline-----------*/
 
 .timeline {
   position: relative;
@@ -498,7 +498,7 @@ h6 {
 
 
 
-/*-------------------------------------------------Section Contact----*/
+/*-------------------------Section Contact----*/
 
 .side-content-contact {
   text-align: center;
@@ -588,21 +588,22 @@ h6 {
     font-size: 27px;
   }
   .nav-link:hover {
-  font-size: 30px;
+    font-size: 30px;
     -moz-transition: all 0.50s ease-in-out;
-  -webkit-transition: all 0.50s ease-in-out;
-  -o-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
   }
   .active {
-  font-size: 30px;}
-  
+    font-size: 30px;
+  }
+
   .d-inline-block-logo:hover {
     min-width: 260px;
     min-height: 105px;
     transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
-  -webkit-transition: all 0.50s ease-in-out;
-  -o-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
   }
   .btn-link.footer {
     font-size: 30px;
