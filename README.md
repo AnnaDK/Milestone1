@@ -106,6 +106,12 @@ As well as the possibility to listen to music, watch videos and enter more oppor
 
 **[Pixlr.com](https://pixlr.com/express/)**:  to make Collage for background and remove the background from Logo for Navbar.
 
+**[w3schools](https://www.w3schools.com/)**: as an extra information/help/knowlege sourse.
+
+**[css-tricks](https://css-tricks.com/)**: as an extra information/help/knowlege sourse.
+
+**[color-hex](https://www.color-hex.com/)**: to choice color palette.
+
 **Javascript and JQuery**: are imported.
 
 **Libraries:** 
@@ -122,7 +128,7 @@ CSS: [jigsaw.w3.org]( https://jigsaw.w3.org/css-validator/) in order to validate
 
 The website, all links, music tracks audio controls and video player were tested. 
 Testing of the website was in Chrome developer tools, in all possible screen sizes, and different devices. On mobile phones: iPhone, Huawei, Samsung. Browsers: Google Chrome
-Firefox, Internet Explorer.
+Firefox, Opera.
 
 
 **After users reviews as result of tests they performed, were applied several changes**.
